@@ -2,7 +2,7 @@ const fs = require("fs").promises;
 const path = require("path");
 const { parentPort, workerData } = require("worker_threads");
 const logger = require("./logger.js");
-const logScan = require("./logger-scan.js");
+// const logScan = require("./logger-scan.js");
 
 // 计算目录大小
 async function calculateDirectorySize(directoryPath) {
@@ -45,7 +45,7 @@ function formatFileSize(size) {
     const totalSize = await calculateDirectorySize(workerData.filePath);
     logger.info(`${workerData.filePath} ${formatFileSize(totalSize)}`);
   } catch (error) {
-    logger.error(error);
+    // logger.error(error);
   } finally {
     parentPort.close();
   }

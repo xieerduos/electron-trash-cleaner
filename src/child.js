@@ -2,15 +2,20 @@ const fs = require("fs");
 const path = require("path");
 const { Worker } = require("worker_threads");
 const util = require("util");
+const os = require("os");
 const logger = require("./logger.js");
 
 const readdir = util.promisify(fs.readdir);
 const stat = util.promisify(fs.stat);
 
+const paddingTaskMap = new Map();
+
 function createWorker(filePath) {
   const worker = new Worker(path.join(__dirname, "./worker.js"), {
     workerData: { filePath },
   });
+
+  paddingTaskMap.set(filePath, worker);
 
   worker.on("message", (message) => {
     logger.info(message);
@@ -21,6 +26,12 @@ function createWorker(filePath) {
   worker.on("exit", (code) => {
     if (code !== 0) {
       logger.error(`Worker stopped with exit code ${code}`);
+    }
+
+    paddingTaskMap.delete(filePath);
+
+    if (paddingTaskMap.size === 0) {
+      process.exit(0);
     }
   });
 }
@@ -53,7 +64,7 @@ async function traverseDirectory(directoryPath, targetDirectoryName) {
       }
     }
   } catch (error) {
-    // logger.error(`Error while traversing directory: ${error}`);
+    // logger.error(`Error while traversing directory: ${error?.message}`);
   }
 }
 
@@ -65,5 +76,7 @@ process.on("message", async ({ driveLetter, target }) => {
     // logger.error(`Error during traversal: ${error}`);
   }
 
-  process.exit(0);
+  if (paddingTaskMap.size === 0) {
+    process.exit(0);
+  }
 });
