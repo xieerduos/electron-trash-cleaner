@@ -16,7 +16,7 @@ async function calculateDirectorySize(directoryPath) {
     if (stats.isDirectory()) {
       return calculateDirectorySize(filePath);
     } else {
-      logScan.info(filePath + " " + stats.size);
+      // logScan.info(filePath + " " + stats.size);
       return stats.size;
     }
   });
@@ -41,7 +41,7 @@ function formatFileSize(size) {
 
 (async () => {
   try {
-    logger.info(`${workerData.filePath} 计算中...`);
+    // logger.info(`${workerData.filePath} 计算中...`);
     const totalSize = await calculateDirectorySize(workerData.filePath);
     logger.info(`${workerData.filePath} ${formatFileSize(totalSize)}`);
   } catch (error) {
