@@ -4,6 +4,12 @@
 
 Electron 垃圾清理器是一款基于 Electron 和 Node.js 构建的桌面应用程序。它利用子进程和 Worker 线程的能力，有效地清理和管理你的系统垃圾，提高你的计算机的整体性能和效率。
 
+## 简介
+
+观看下面的演示视频，了解 Electron Trash Cleaner 的工作过程：
+
+![Electron Trash Cleaner Demo](demo.gif)
+
 ## 功能
 
 - 高效清理系统垃圾

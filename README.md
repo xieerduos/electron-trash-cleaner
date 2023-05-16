@@ -4,6 +4,12 @@
 
 Electron Trash Cleaner is a desktop application built with Electron and Node.js. It leverages the power of child processes and worker threads to effectively clean and manage your system's trash, improving your computer's overall performance and efficiency.
 
+## Introduction
+
+Watch the demo video below to see Electron Trash Cleaner in action:
+
+![Electron Trash Cleaner Demo](demo.gif)
+
 ## Features
 
 - Efficiently cleans system trash
