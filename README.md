@@ -15,7 +15,7 @@ Electron Trash Cleaner is a desktop application built with Electron and Node.js.
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/electron-trash-cleaner.git
+git clone git@github.com:xieerduos/electron-trash-cleaner.git
 ```
 
 ## Navigate to the project directory:

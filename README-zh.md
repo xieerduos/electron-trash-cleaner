@@ -15,7 +15,7 @@ Electron 垃圾清理器是一款基于 Electron 和 Node.js 构建的桌面应�
 克隆仓库：
 
 ```bash
-git clone https://github.com/你的用户名/electron-trash-cleaner.git
+git clone git@github.com:xieerduos/electron-trash-cleaner.git
 ```
 
 ## 导航到项目目录：
