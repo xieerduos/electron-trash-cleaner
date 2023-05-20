@@ -1,0 +1,252 @@
+{
+  "AllDisksAndPartitions": [
+    {
+      "Partitions": [
+        {
+          "DiskUUID": "ADE3E30C-FF59-48BC-85F3-1E35531EF1DB",
+          "Content": "Apple_APFS_ISC",
+          "Size": 524288000,
+          "DeviceIdentifier": "disk0s1"
+        },
+        {
+          "DiskUUID": "B08F7CED-0D7E-4AB0-A429-A7228DD4A526",
+          "Content": "Apple_APFS",
+          "Size": 994662584320,
+          "DeviceIdentifier": "disk0s2"
+        },
+        {
+          "DiskUUID": "210B2FD8-3EED-4D65-AD50-69FA19730464",
+          "Content": "Apple_APFS_Recovery",
+          "Size": 5368664064,
+          "DeviceIdentifier": "disk0s3"
+        }
+      ],
+      "OSInternal": false,
+      "Content": "GUID_partition_scheme",
+      "Size": 1000555581440,
+      "DeviceIdentifier": "disk0"
+    },
+    {
+      "APFSPhysicalStores": [
+        {
+          "DeviceIdentifier": "disk0s1"
+        }
+      ],
+      "DeviceIdentifier": "disk1",
+      "Size": 524288000,
+      "OSInternal": true,
+      "Content": "Apple_APFS_Container",
+      "APFSVolumes": [
+        {
+          "DiskUUID": "8465D4BF-B5D4-445F-BDFE-1A06ACC0DEE4",
+          "DeviceIdentifier": "disk1s1",
+          "Size": 524288000,
+          "OSInternal": true,
+          "MountPoint": "/System/Volumes/iSCPreboot",
+          "MountedSnapshots": [],
+          "VolumeName": "iSCPreboot",
+          "CapacityInUse": 6402048,
+          "VolumeUUID": "8465D4BF-B5D4-445F-BDFE-1A06ACC0DEE4"
+        },
+        {
+          "DiskUUID": "609EE7CD-1304-4CB2-B73A-C0ADF93BF567",
+          "DeviceIdentifier": "disk1s2",
+          "Size": 524288000,
+          "OSInternal": true,
+          "MountPoint": "/System/Volumes/xarts",
+          "MountedSnapshots": [],
+          "VolumeName": "xART",
+          "CapacityInUse": 6311936,
+          "VolumeUUID": "609EE7CD-1304-4CB2-B73A-C0ADF93BF567"
+        },
+        {
+          "DiskUUID": "2B01F1F1-AB8C-4FAA-BD84-D56C30B6E9DF",
+          "DeviceIdentifier": "disk1s3",
+          "Size": 524288000,
+          "OSInternal": true,
+          "MountPoint": "/System/Volumes/Hardware",
+          "MountedSnapshots": [],
+          "VolumeName": "Hardware",
+          "CapacityInUse": 2138112,
+          "VolumeUUID": "2B01F1F1-AB8C-4FAA-BD84-D56C30B6E9DF"
+        },
+        {
+          "DiskUUID": "55CEAC3C-9E73-4491-A014-CBDD73E4A391",
+          "DeviceIdentifier": "disk1s4",
+          "Size": 524288000,
+          "OSInternal": true,
+          "MountedSnapshots": [],
+          "VolumeName": "Recovery",
+          "CapacityInUse": 20480,
+          "VolumeUUID": "55CEAC3C-9E73-4491-A014-CBDD73E4A391"
+        }
+      ],
+      "Partitions": []
+    },
+    {
+      "APFSPhysicalStores": [
+        {
+          "DeviceIdentifier": "disk0s3"
+        }
+      ],
+      "DeviceIdentifier": "disk2",
+      "Size": 5368664064,
+      "OSInternal": true,
+      "Content": "Apple_APFS_Container",
+      "APFSVolumes": [
+        {
+          "DiskUUID": "4A1163FB-BC76-404D-891C-BB36942DED3E",
+          "DeviceIdentifier": "disk2s1",
+          "Size": 5368664064,
+          "OSInternal": true,
+          "MountedSnapshots": [],
+          "VolumeName": "Recovery",
+          "CapacityInUse": 767856640,
+          "VolumeUUID": "4A1163FB-BC76-404D-891C-BB36942DED3E"
+        },
+        {
+          "DiskUUID": "D27D7E5C-7E6D-401C-BA27-84A7EC26EFC6",
+          "DeviceIdentifier": "disk2s2",
+          "Size": 5368664064,
+          "OSInternal": true,
+          "MountedSnapshots": [],
+          "VolumeName": "Update",
+          "CapacityInUse": 28672,
+          "VolumeUUID": "D27D7E5C-7E6D-401C-BA27-84A7EC26EFC6"
+        }
+      ],
+      "Partitions": []
+    },
+    {
+      "APFSPhysicalStores": [
+        {
+          "DeviceIdentifier": "disk0s2"
+        }
+      ],
+      "DeviceIdentifier": "disk3",
+      "Size": 994662584320,
+      "OSInternal": false,
+      "Content": "Apple_APFS_Container",
+      "APFSVolumes": [
+        {
+          "DiskUUID": "5367F1B8-C1DC-48C4-83AB-E115B4988B38",
+          "DeviceIdentifier": "disk3s1",
+          "Size": 994662584320,
+          "OSInternal": false,
+          "MountPoint": "/System/Volumes/Update/mnt1",
+          "MountedSnapshots": [
+            {
+              "SnapshotMountPoint": "/",
+              "SnapshotUUID": "D877E13F-414A-4A30-AD35-256F9DCA1162",
+              "SnapshotName": "com.apple.os.update-DCFA9E2D4E4407822BB513A874B2A2922E2DD50403877F878FA8D11CC3D57596",
+              "SnapshotBSD": "disk3s1s1",
+              "Sealed": "Yes"
+            }
+          ],
+          "VolumeName": "Macintosh HD",
+          "CapacityInUse": 12815679488,
+          "VolumeUUID": "5367F1B8-C1DC-48C4-83AB-E115B4988B38"
+        },
+        {
+          "DiskUUID": "D877E13F-414A-4A30-AD35-256F9DCA1162",
+          "DeviceIdentifier": "disk3s1s1",
+          "Size": 994662584320,
+          "OSInternal": false,
+          "MountPoint": "/",
+          "VolumeName": "Macintosh HD",
+          "CapacityInUse": 12815679488,
+          "VolumeUUID": "D877E13F-414A-4A30-AD35-256F9DCA1162"
+        },
+        {
+          "DiskUUID": "97891596-E9C1-4B14-B322-1CC5D189A356",
+          "DeviceIdentifier": "disk3s2",
+          "Size": 994662584320,
+          "OSInternal": false,
+          "MountPoint": "/System/Volumes/Preboot",
+          "MountedSnapshots": [],
+          "VolumeName": "Preboot",
+          "CapacityInUse": 9796497408,
+          "VolumeUUID": "97891596-E9C1-4B14-B322-1CC5D189A356"
+        },
+        {
+          "DiskUUID": "2600CFB8-9BAA-480E-977A-74ED0123EEF9",
+          "DeviceIdentifier": "disk3s3",
+          "Size": 994662584320,
+          "OSInternal": false,
+          "MountedSnapshots": [],
+          "VolumeName": "Recovery",
+          "CapacityInUse": 1575190528,
+          "VolumeUUID": "2600CFB8-9BAA-480E-977A-74ED0123EEF9"
+        },
+        {
+          "DiskUUID": "1E5DEDFB-7E6A-4D07-BC0C-86EFF3BA75E4",
+          "DeviceIdentifier": "disk3s4",
+          "Size": 994662584320,
+          "OSInternal": true,
+          "MountPoint": "/System/Volumes/Update",
+          "MountedSnapshots": [],
+          "VolumeName": "Update",
+          "CapacityInUse": 609198080,
+          "VolumeUUID": "1E5DEDFB-7E6A-4D07-BC0C-86EFF3BA75E4"
+        },
+        {
+          "DiskUUID": "E39B93D2-FE4D-4BB5-B2F1-8D564256FD1F",
+          "DeviceIdentifier": "disk3s5",
+          "Size": 994662584320,
+          "OSInternal": false,
+          "MountPoint": "/System/Volumes/Data",
+          "MountedSnapshots": [],
+          "VolumeName": "Data",
+          "CapacityInUse": 181562155008,
+          "VolumeUUID": "E39B93D2-FE4D-4BB5-B2F1-8D564256FD1F"
+        },
+        {
+          "DiskUUID": "95639A19-453C-4EF6-8544-71C6BF87B0E0",
+          "DeviceIdentifier": "disk3s6",
+          "Size": 994662584320,
+          "OSInternal": false,
+          "MountPoint": "/System/Volumes/VM",
+          "MountedSnapshots": [],
+          "VolumeName": "VM",
+          "CapacityInUse": 20480,
+          "VolumeUUID": "95639A19-453C-4EF6-8544-71C6BF87B0E0"
+        }
+      ],
+      "Partitions": []
+    }
+  ],
+  "VolumesFromDisks": [
+    "iSCPreboot",
+    "xART",
+    "Hardware",
+    "Macintosh HD",
+    "Macintosh HD",
+    "Preboot",
+    "Update",
+    "Data",
+    "VM"
+  ],
+  "AllDisks": [
+    "disk0",
+    "disk0s1",
+    "disk0s2",
+    "disk0s3",
+    "disk1",
+    "disk1s1",
+    "disk1s2",
+    "disk1s3",
+    "disk1s4",
+    "disk2",
+    "disk2s1",
+    "disk2s2",
+    "disk3",
+    "disk3s1",
+    "disk3s1s1",
+    "disk3s2",
+    "disk3s3",
+    "disk3s4",
+    "disk3s5",
+    "disk3s6"
+  ],
+  "WholeDisks": ["disk0", "disk1", "disk2", "disk3"]
+}

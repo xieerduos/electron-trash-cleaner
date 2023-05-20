@@ -2,14 +2,16 @@
   "name": "electron-trash-cleaner",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/main.js",
   "scripts": {
     "start": "node src/main.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bytes": "^3.1.2",
     "dayjs": "^1.11.7",
+    "diskusage": "^1.1.3",
     "fast-glob": "^3.2.12",
     "winston": "^3.8.2",
     "winston-daily-rotate-file": "^4.7.1"

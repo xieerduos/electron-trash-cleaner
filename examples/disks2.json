@@ -1,0 +1,252 @@
+{
+  "所有磁盘和分区": [
+    {
+      "分区": [
+        {
+          "磁盘UUID": "ADE3E30C-FF59-48BC-85F3-1E35531EF1DB",
+          "内容": "Apple_APFS_ISC",
+          "大小": "500 MB",
+          "设备标识符": "disk0s1"
+        },
+        {
+          "磁盘UUID": "B08F7CED-0D7E-4AB0-A429-A7228DD4A526",
+          "内容": "Apple_APFS",
+          "大小": "926.35 GB",
+          "设备标识符": "disk0s2"
+        },
+        {
+          "磁盘UUID": "210B2FD8-3EED-4D65-AD50-69FA19730464",
+          "内容": "Apple_APFS_Recovery",
+          "大小": "5 GB",
+          "设备标识符": "disk0s3"
+        }
+      ],
+      "操作系统内部": false,
+      "内容": "GUID_partition_scheme",
+      "大小": "931.84 GB",
+      "设备标识符": "disk0"
+    },
+    {
+      "APFS物理存储": [
+        {
+          "设备标识符": "disk0s1"
+        }
+      ],
+      "设备标识符": "disk1",
+      "大小": "500 MB",
+      "操作系统内部": true,
+      "内容": "Apple_APFS_Container",
+      "APFS卷": [
+        {
+          "磁盘UUID": "8465D4BF-B5D4-445F-BDFE-1A06ACC0DEE4",
+          "设备标识符": "disk1s1",
+          "大小": "500 MB",
+          "操作系统内部": true,
+          "挂载点": "/System/Volumes/iSCPreboot",
+          "已挂载快照": [],
+          "卷名": "iSCPreboot",
+          "已用容量": "6.11 MB",
+          "卷UUID": "8465D4BF-B5D4-445F-BDFE-1A06ACC0DEE4"
+        },
+        {
+          "磁盘UUID": "609EE7CD-1304-4CB2-B73A-C0ADF93BF567",
+          "设备标识符": "disk1s2",
+          "大小": "500 MB",
+          "操作系统内部": true,
+          "挂载点": "/System/Volumes/xarts",
+          "已挂载快照": [],
+          "卷名": "xART",
+          "已用容量": "6.02 MB",
+          "卷UUID": "609EE7CD-1304-4CB2-B73A-C0ADF93BF567"
+        },
+        {
+          "磁盘UUID": "2B01F1F1-AB8C-4FAA-BD84-D56C30B6E9DF",
+          "设备标识符": "disk1s3",
+          "大小": "500 MB",
+          "操作系统内部": true,
+          "挂载点": "/System/Volumes/Hardware",
+          "已挂载快照": [],
+          "卷名": "Hardware",
+          "已用容量": "2.04 MB",
+          "卷UUID": "2B01F1F1-AB8C-4FAA-BD84-D56C30B6E9DF"
+        },
+        {
+          "磁盘UUID": "55CEAC3C-9E73-4491-A014-CBDD73E4A391",
+          "设备标识符": "disk1s4",
+          "大小": "500 MB",
+          "操作系统内部": true,
+          "已挂载快照": [],
+          "卷名": "Recovery",
+          "已用容量": "20 KB",
+          "卷UUID": "55CEAC3C-9E73-4491-A014-CBDD73E4A391"
+        }
+      ],
+      "分区": []
+    },
+    {
+      "APFS物理存储": [
+        {
+          "设备标识符": "disk0s3"
+        }
+      ],
+      "设备标识符": "disk2",
+      "大小": "5 GB",
+      "操作系统内部": true,
+      "内容": "Apple_APFS_Container",
+      "APFS卷": [
+        {
+          "磁盘UUID": "4A1163FB-BC76-404D-891C-BB36942DED3E",
+          "设备标识符": "disk2s1",
+          "大小": "5 GB",
+          "操作系统内部": true,
+          "已挂载快照": [],
+          "卷名": "Recovery",
+          "已用容量": "732.29 MB",
+          "卷UUID": "4A1163FB-BC76-404D-891C-BB36942DED3E"
+        },
+        {
+          "磁盘UUID": "D27D7E5C-7E6D-401C-BA27-84A7EC26EFC6",
+          "设备标识符": "disk2s2",
+          "大小": "5 GB",
+          "操作系统内部": true,
+          "已挂载快照": [],
+          "卷名": "Update",
+          "已用容量": "28 KB",
+          "卷UUID": "D27D7E5C-7E6D-401C-BA27-84A7EC26EFC6"
+        }
+      ],
+      "分区": []
+    },
+    {
+      "APFS物理存储": [
+        {
+          "设备标识符": "disk0s2"
+        }
+      ],
+      "设备标识符": "disk3",
+      "大小": "926.35 GB",
+      "操作系统内部": false,
+      "内容": "Apple_APFS_Container",
+      "APFS卷": [
+        {
+          "磁盘UUID": "5367F1B8-C1DC-48C4-83AB-E115B4988B38",
+          "设备标识符": "disk3s1",
+          "大小": "926.35 GB",
+          "操作系统内部": false,
+          "挂载点": "/System/Volumes/Update/mnt1",
+          "已挂载快照": [
+            {
+              "快照挂载点": "/",
+              "快照UUID": "D877E13F-414A-4A30-AD35-256F9DCA1162",
+              "快照名称": "com.apple.os.update-DCFA9E2D4E4407822BB513A874B2A2922E2DD50403877F878FA8D11CC3D57596",
+              "快照BSD": "disk3s1s1",
+              "密封": "Yes"
+            }
+          ],
+          "卷名": "Macintosh HD",
+          "已用容量": "11.94 GB",
+          "卷UUID": "5367F1B8-C1DC-48C4-83AB-E115B4988B38"
+        },
+        {
+          "磁盘UUID": "D877E13F-414A-4A30-AD35-256F9DCA1162",
+          "设备标识符": "disk3s1s1",
+          "大小": "926.35 GB",
+          "操作系统内部": false,
+          "挂载点": "/",
+          "卷名": "Macintosh HD",
+          "已用容量": "11.94 GB",
+          "卷UUID": "D877E13F-414A-4A30-AD35-256F9DCA1162"
+        },
+        {
+          "磁盘UUID": "97891596-E9C1-4B14-B322-1CC5D189A356",
+          "设备标识符": "disk3s2",
+          "大小": "926.35 GB",
+          "操作系统内部": false,
+          "挂载点": "/System/Volumes/Preboot",
+          "已挂载快照": [],
+          "卷名": "Preboot",
+          "已用容量": "9.12 GB",
+          "卷UUID": "97891596-E9C1-4B14-B322-1CC5D189A356"
+        },
+        {
+          "磁盘UUID": "2600CFB8-9BAA-480E-977A-74ED0123EEF9",
+          "设备标识符": "disk3s3",
+          "大小": "926.35 GB",
+          "操作系统内部": false,
+          "已挂载快照": [],
+          "卷名": "Recovery",
+          "已用容量": "1.47 GB",
+          "卷UUID": "2600CFB8-9BAA-480E-977A-74ED0123EEF9"
+        },
+        {
+          "磁盘UUID": "1E5DEDFB-7E6A-4D07-BC0C-86EFF3BA75E4",
+          "设备标识符": "disk3s4",
+          "大小": "926.35 GB",
+          "操作系统内部": true,
+          "挂载点": "/System/Volumes/Update",
+          "已挂载快照": [],
+          "卷名": "Update",
+          "已用容量": "580.98 MB",
+          "卷UUID": "1E5DEDFB-7E6A-4D07-BC0C-86EFF3BA75E4"
+        },
+        {
+          "磁盘UUID": "E39B93D2-FE4D-4BB5-B2F1-8D564256FD1F",
+          "设备标识符": "disk3s5",
+          "大小": "926.35 GB",
+          "操作系统内部": false,
+          "挂载点": "/System/Volumes/Data",
+          "已挂载快照": [],
+          "卷名": "Data",
+          "已用容量": "169.07 GB",
+          "卷UUID": "E39B93D2-FE4D-4BB5-B2F1-8D564256FD1F"
+        },
+        {
+          "磁盘UUID": "95639A19-453C-4EF6-8544-71C6BF87B0E0",
+          "设备标识符": "disk3s6",
+          "大小": "926.35 GB",
+          "操作系统内部": false,
+          "挂载点": "/System/Volumes/VM",
+          "已挂载快照": [],
+          "卷名": "VM",
+          "已用容量": "20 KB",
+          "卷UUID": "95639A19-453C-4EF6-8544-71C6BF87B0E0"
+        }
+      ],
+      "分区": []
+    }
+  ],
+  "来自磁盘的卷": [
+    "iSCPreboot",
+    "xART",
+    "Hardware",
+    "Macintosh HD",
+    "Macintosh HD",
+    "Preboot",
+    "Update",
+    "Data",
+    "VM"
+  ],
+  "所有磁盘": [
+    "disk0",
+    "disk0s1",
+    "disk0s2",
+    "disk0s3",
+    "disk1",
+    "disk1s1",
+    "disk1s2",
+    "disk1s3",
+    "disk1s4",
+    "disk2",
+    "disk2s1",
+    "disk2s2",
+    "disk3",
+    "disk3s1",
+    "disk3s1s1",
+    "disk3s2",
+    "disk3s3",
+    "disk3s4",
+    "disk3s5",
+    "disk3s6"
+  ],
+  "整个磁盘": ["disk0", "disk1", "disk2", "disk3"]
+}
