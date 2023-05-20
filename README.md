@@ -12,10 +12,9 @@ Watch the demo video below to see Electron Trash Cleaner in action:
 
 ## Figma
 
-<a href="https://www.figma.com/file/7orfGCbrjWFTzMHEcCM769/Electron-Trash-Cleaner?type=design&node-id=0-1" target="_blank">https://www.figma.com/file/7orfGCbrjWFTzMHEcCM769/Electron-Trash-Cleaner?type=design&node-id=0-1</a>
+https://www.figma.com/file/7orfGCbrjWFTzMHEcCM769/Electron-Trash-Cleaner?type=design&node-id=88-559&t=J7ibTNkfHmjNdQLV-0
 
-<iframe width="100%" height="500px" src="https://www.figma.com/file/7orfGCbrjWFTzMHEcCM769/Electron-Trash-Cleaner?type=design&node-id=0-1">
-</iframe>
+![figma ui](figma.gif)
 
 ## Features
 
