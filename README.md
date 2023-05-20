@@ -10,6 +10,13 @@ Watch the demo video below to see Electron Trash Cleaner in action:
 
 ![Electron Trash Cleaner Demo](demo.gif)
 
+## Figma
+
+<a href="https://www.figma.com/file/7orfGCbrjWFTzMHEcCM769/Electron-Trash-Cleaner?type=design&node-id=0-1" target="_blank">https://www.figma.com/file/7orfGCbrjWFTzMHEcCM769/Electron-Trash-Cleaner?type=design&node-id=0-1</a>
+
+<iframe width="100%" height="500px" src="https://www.figma.com/file/7orfGCbrjWFTzMHEcCM769/Electron-Trash-Cleaner?type=design&node-id=0-1">
+</iframe>
+
 ## Features
 
 - Efficiently cleans system trash

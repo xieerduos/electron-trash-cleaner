@@ -10,6 +10,13 @@ Electron 垃圾清理器是一款基于 Electron 和 Node.js 构建的桌面应�
 
 ![Electron Trash Cleaner Demo](demo.gif)
 
+## Figma
+
+<a href="https://www.figma.com/file/7orfGCbrjWFTzMHEcCM769/Electron-Trash-Cleaner?type=design&node-id=0-1" target="_blank">https://www.figma.com/file/7orfGCbrjWFTzMHEcCM769/Electron-Trash-Cleaner?type=design&node-id=0-1</a>
+
+<iframe width="100%" height="500px" src="https://www.figma.com/file/7orfGCbrjWFTzMHEcCM769/Electron-Trash-Cleaner?type=design&node-id=0-1">
+</iframe>
+
 ## 功能
 
 - 高效清理系统垃圾
